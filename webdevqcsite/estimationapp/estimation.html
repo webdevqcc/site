@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+
+       <!-- Import Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    
+        <div id="app">
+          <div>
+            
+              <label for="nbpages">À combien de pages estimez-vous votre site web?</label>
+              <input type="number" min="1" max="50"> 
+              
+            <!--
+   
+   <label for="nbpages">À combien de pages estimez-vous votre site web?</label>
+   <select id='nbpages' name='nbpages'>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
+        <option value='6'>6</option>
+        <option value='7'>7</option>
+        <option value='8'>8</option>
+        <option value='9'>9</option>
+        <option value='10'>10</option>
+        <option value='11'>11</option>
+        <option value='12'>12</option>
+        <option value='13'>13</option>
+        <option value='14'>14</option>
+        <option value='plusde15'>+ de 15</option>
+    </select>
+   -->
+   <br>
+<label for="copywritecb">J'ai besoin de votre service de rédaction</label>
+ <input type="checkbox" id="copywritecb" name="copywritecb" value="copywritecb">
+ <br>
+<label for="vehicle2"> I have a car</label>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<br>
+<label for="vehicle3"> I have a boat</label>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<br> 
+          </div>
+  
+    
+    
+</div>
+       <!-- Import App -->
+    <script src="main.js"></script>
+
+    <!-- Mount App -->
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
+  </body>
+</html>
